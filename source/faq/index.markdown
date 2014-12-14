@@ -72,9 +72,8 @@ using firmware and drivers that do not have source code and are released under a
 That does not mean that we will be charging for our work.
 
 Instead, once we have more work to show, we will be accepting direct donations and donations via
-bug bounties to pay developers for their time and work. Even open-source developers need to eat
-and support a family, just as everyone else :) We may also use crowdfunding to cover the costs of
-new major features.
+bug bounties to pay developers for their time and work. We may also use crowdfunding to cover
+the costs of major new features.
 
 ### Why don't you use a bottom bar, like Windows or Chrome OS?
 
