@@ -10,7 +10,7 @@ footer: true
 ### Is this only just a bunch of mockups or is it a real working OS?
 
 Yes! We have real working code and lots of progress is going on. Check out our repositories on GitHub
-at https://github.com/quantum-os.
+at <https://github.com/quantum-os>.
 
 ### You're building yet another desktop shell! Why not just theme KDE?
 
@@ -47,10 +47,10 @@ once we have our installer finished.
 
 ### Is it going to be a GNU free distro?
 
-Our goal is not to be a free-software distro; if you want that, install our apps, shell, and login
-screen on another distro. Our goal is to be the best possible operating system for the typical
-computing user. So, if that means supporting non-free software such as drivers, than we will
-support non-free software. And that includes supporting an appstore that supports selling
+Our goal is not to be a pure free-software distro; if you want that, install our apps, shell, and
+login screen on another distro. Our goal is to be the best possible operating system for the typical
+computing user. So, if that means supporting proprietary software such as firmware and drivers, than
+we will support non-free software. And that includes supporting an appstore that supports selling
 proprietary software (if we ever get to that point).
 
 My goal for the OS itself is to focus on an ellegent user experience for the typical computing user.
@@ -61,6 +61,20 @@ go find your own distro and install our packages on top of it.﻿
 I'm not developing this operating system to please everyone. I'm developing it as a hobby project
 to fullfill a list of requirements that I've put forth, and being an ideal distro that doesn't
 work for users is not one of them.﻿
+
+### So you're selling your operating system?
+
+No, we are a completely open-source project, with the code available on GitHub at
+<https://github.com/quantum-os>, and the operating system will be available at no cost. Our main
+software is licensed under the GPL, while our application framework implementing Material Design is
+LGPL. By not following GNU free distro guidelines, that simply means that we will support the user
+using firmware and drivers that do not have source code and are released under a proprietary license.
+That does not mean that we will be charging for our work.
+
+Instead, once we have more work to show, we will be accepting direct donations and donations via
+bug bounties to pay developers for their time and work. Even open-source developers need to eat
+and support a family, just as everyone else :) We may also use crowdfunding to cover the costs of
+new major features.
 
 ### Why don't you use a bottom bar, like Windows or Chrome OS?
 
