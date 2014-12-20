@@ -9,7 +9,7 @@ footer: true
 
 ### Is this only just a bunch of mockups or is it a real working OS?
 
-Yes! We have real working code and lots of progress is going on. Check out our repositories on GitHub
+Yes, we do have real working code and lots of progress is going on. Check out our repositories on GitHub
 at <https://github.com/quantum-os>.
 
 ### You're building yet another desktop shell! Why not just theme KDE?
