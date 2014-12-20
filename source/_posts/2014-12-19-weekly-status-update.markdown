@@ -13,7 +13,7 @@ We'lll be starting weekly status updates to share progress on the various compon
 21 commits where made to our Material Design framework during the past week. The following features
 were implemented:
 
-* Implement the Switch control and update the design to match Material Design [[@boghison](https://github.com/boghison),[@iBeliever](https://github.com/iBeliever)]
+* Implement the Switch control and update the design to match Material Design [[@boghison](https://github.com/boghison), [@iBeliever](https://github.com/iBeliever)]
 * Switch to GitFlow, and set up a CONTRIBUTING.md document [[@iBeliever](https://github.com/iBeliever)]
 * Load more of the Roboto fonts [[@glenfordwilliams](https://github.com/glenfordwilliams)]
 * Initial work on a component demo app [[@iBeliever](https://github.com/iBeliever)]
@@ -42,7 +42,7 @@ Planning also continues on different designs and layouts and deciding what featu
 
 ### SDDM Theme
 
-Not much happening here, as the focus during the past week has been on other comments. However, [@boghison](https://github.com/boghison) did turn the initial prototype into a working SDDM theme, which is awesome.
+Not much happening here, as the focus during the past week has been on other components. However, [@boghison](https://github.com/boghison) did turn the initial prototype into a working SDDM theme, which is awesome.
 
 ### General OS progress
 
