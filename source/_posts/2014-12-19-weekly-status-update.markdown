@@ -59,6 +59,8 @@ Other ongoing issues include:
 
 In closing, we're making good progress towards building an awesome OS! Thanks to everyone interested in the project and who have offered support, ideas and suggestions, design feedback, or code contributions. That's the power of open source!
 
+Have any suggestions, bug reports, or ideas for what you'd like to see next in the various projects? Comment here or on Google+, or open issues on our GitHub projects at <https://github.com/quantum-os>.
+
 Christmas is coming up next week, so I may not do a progress report next Friday and will probably not make a whole lot of progress on Quantum OS work as well. I'll be back in full force the next week, though!
 
 Have a blessed Christmas and a happy New Year!
