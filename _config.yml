@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://quantum-os.github.io
-title: Quantum OS
+url: http://papyros.io
+title: Papyros
 subtitle: Material Design + Linux = Awesome
-author: Quantum OS
+author: Papyros
 simple_search: https://www.google.com/search
 description:
 
@@ -64,7 +64,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user: quantum-os
+github_user: papyros
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
