@@ -2,8 +2,8 @@
 title: Papyros
 email: mspencer@sonrisesoftware.com
 description: > # this means to ignore newlines until "baseurl:"
-  Papyros is modern operating system based on Arch Linux and conforming to
-  Google's Material Design guidelines.
+  Papyros is a modern operating system which adheres to Google's
+  Material Design guidelines and is based on Arch Linux.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://papyros.io" # the base hostname & protocol for your site
 github_username:  papyros
