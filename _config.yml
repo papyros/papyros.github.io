@@ -14,3 +14,8 @@ markdown: kramdown
 
 # Google Analytics
 google_analytics_tracking_id: UA-47662876-2
+
+# Gems for GitHub Pages
+gems:
+- jekyll-mentions
+- octopress-image-tag
