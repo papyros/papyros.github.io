@@ -5,9 +5,10 @@ date: 2014-11-19 18:48:41 -0600
 comments: true
 categories:
 ---
-Welcome to Quantum OS! We are working on developing an operating system based upon Linux which conforms to Google's [Material Design guidelines](http://google.com/design/). The focus will be on creating a stable and easy-to-use operating system with a heavy emphasis on well-thought-out design.
 
-**UPDATE**: This project was originally named Quartz OS but has since been renamed to Quantum OS because of conflicts with the OS X graphics technologies.
+Welcome to Papyros! We are working on developing an operating system based upon Linux which conforms to Google's [Material Design guidelines](http://google.com/design/). The focus will be on creating a stable and easy-to-use operating system with a heavy emphasis on well-thought-out design.
+
+**UPDATE:** Quantum OS has been renamed to Papyros to avoid trademark issues.
 
 ### The Desktop Shell
 
