@@ -11,3 +11,6 @@ github_username:  papyros
 
 # Build settings
 markdown: kramdown
+
+# Google Analytics
+google_analytics_tracking_id: UA-47662876-2
