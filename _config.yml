@@ -14,3 +14,7 @@ markdown: kramdown
 
 # Google Analytics
 google_analytics_tracking_id: UA-47662876-2
+
+# Disqus comments
+disqus_short_name: quartzos
+disqus_show_comment_count: true
