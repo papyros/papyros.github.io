@@ -2,22 +2,14 @@
 layout: default
 ---
 
-<div class="home">
+<header class="post-header">
+    <h2 class="center" style="text-align: center">Modern. Fast. Beautiful. Awesome.</h2>
+</header>
 
-  <h1 class="page-heading">Posts</h1>
+{% img /images/papyros.png %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<h1 class="center" style="text-align: center">Alpha coming soon</h1>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div style="text-align: center">
+    Follow us on Google+ or read our blog for more details.
 </div>

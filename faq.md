@@ -1,5 +1,6 @@
 ---
 layout: page
+short_title: "FAQ"
 title: "Frequently Asked Questions"
 date: 2014-12-13 17:00
 comments: true
