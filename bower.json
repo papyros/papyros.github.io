@@ -1,0 +1,29 @@
+{
+  "name": "papyros.io",
+  "version": "0.0.0",
+  "authors": [
+    "Michael Spencer <sonrisesoftware@gmail.com>"
+  ],
+  "description": "Website for Papyros",
+  "main": "index.html",
+  "keywords": [
+    "material design",
+    "operating systems",
+    "papyros"
+  ],
+  "license": "MIT",
+  "homepage": "papyros.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.4",
+    "paper-elements": "Polymer/paper-elements#~0.5.4",
+    "core-elements": "Polymer/core-elements#~0.5.4"
+  }
+}

@@ -1,4 +1,5 @@
 .sass-cache
 .deploy
 _site
+bower_components
 Gemfile.lock
