@@ -89,7 +89,7 @@ never become the default.
 
 No. I (Michael Spencer, the project manager and lead dev) have been planning on developing an
 operating system for several years now, and have been working on ideas for the OS and reading up
-about people's thoughts about Linux Desktops in genernal. I actually had started to develop my own
+about people's thoughts about Linux Desktops in general. I actually had started to develop my own
 UI style somewhat similar to the Bootstrap web framework, but then Google announced Material Design
 and I decided just to use that as Material Design looked really nice and it obviously would get
 a lot of support and interest since it came from a big company like Google.
