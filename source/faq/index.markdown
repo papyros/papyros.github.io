@@ -10,7 +10,7 @@ footer: true
 ### Is this only just a bunch of mockups or is it a real working OS?
 
 Yes, we do have real working code and lots of progress is going on. Check out our repositories on GitHub
-at <https://github.com/quantum-os>.
+at <https://github.com/papyros>.
 
 ### You're building yet another desktop shell! Why not just theme KDE?
 
@@ -65,7 +65,7 @@ work for users is not one of them.﻿
 ### So you're selling your operating system?
 
 No, we are a completely open-source project, with the code available on GitHub at
-<https://github.com/quantum-os>, and the operating system will be available at no cost. Our main
+<https://github.com/papyros>, and the operating system will be available at no cost. Our main
 software is licensed under the GPL, while our application framework implementing Material Design is
 LGPL. By not following GNU free distro guidelines, that simply means that we will support the user
 using firmware and drivers that do not have source code and are released under a proprietary license.
@@ -80,7 +80,7 @@ the costs of major new features.
 There have been several mockups shared with our Google+ community which have a bottom bar, much
 like Chrome OS, and these mockups have generated much interest. Unfortunately, we will not be
 considering actually developing a layout with a Chrome OS-like bottom bar, simply because we are
-already following a similar design language (Material Design), and we do not want Quantum OS to be
+already following a similar design language (Material Design), and we do not want Papyros to be
 an exact clone of Chrome OS. In the future, it might be added as a secondary option, but it will
 never become the default.
 

@@ -6,7 +6,9 @@ comments: true
 categories: weekly-status
 ---
 
-We'lll be starting weekly status updates to share progress on the various components of Quantum OS.
+**UPDATE:** Quantum OS has been renamed to Papyros to avoid trademark issues.
+
+We'll be starting weekly status updates to share progress on the various components of Quantum OS.
 
 ### QML Material
 
@@ -53,7 +55,7 @@ A large part of my time this week was spent on the following items:
 
 Other ongoing issues include:
 
-* Picking a new name. With the majority of my time spent on other tasks, I have not spent much time on this. I have several names to research in the US trademark databases and perform general internet seaches on. Currently, my favorite candidate is Papyros, as a modified version of papyrus, an anchient form of paper, which fits with Material Design and the concept of paper used.
+* Picking a new name. With the majority of my time spent on other tasks, I have not spent much time on this. I have several names to research in the US trademark databases and perform general internet seaches on. Currently, my favorite candidate is Papyros, as a modified version of papyrus, an ancient form of paper, which fits with Material Design and the concept of paper used.
 * Getting a list of packages we will need to ship together
 * Designing various aspects of the desktop shell, applications, and OS in general
 
