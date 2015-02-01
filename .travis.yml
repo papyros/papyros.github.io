@@ -5,3 +5,5 @@ script: jekyll build
 branches:
   except:
     - master
+notifications:
+  slack: papyros:KBYIhW6PbotRKo3MO1CZ15aF
