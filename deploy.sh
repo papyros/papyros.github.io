@@ -44,8 +44,11 @@ if [ -n "$TRAVIS_BUILD_ID" ]; then
             ssh-add deploy_key
             git config --global user.name "$GIT_NAME"
             git config --global user.email "$GIT_EMAIL"
+
+            echo "Deploy key and GitHub identity set up"
         fi
     fi
 fi
 
+echo "Deploying using octopress config..."
 octopress deploy
