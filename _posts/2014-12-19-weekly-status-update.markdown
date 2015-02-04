@@ -25,8 +25,8 @@ were implemented:
 Ongoing work includes:
 
 * Migrating to QtQuick.Controls
-* Rewriting the PageStack code to use QtQuick.Controls and sort out the way transitions, etc are handled [[#36](https://github.com/quantum-os/qml-material/issues/36), [#37](https://github.com/quantum-os/qml-material/issues/37)]
-* Investigating how to handle the various styles of the Robot font [[#46](https://github.com/quantum-os/qml-material/issues/46)]
+* Rewriting the PageStack code to use QtQuick.Controls and sort out the way transitions, etc are handled [[#36](https://github.com/papyros/qml-material/issues/36), [#37](https://github.com/papyros/qml-material/issues/37)]
+* Investigating how to handle the various styles of the Robot font [[#46](https://github.com/papyros/qml-material/issues/46)]
 
 Thanks to all the developers who have contributed code to the project this week and in past weeks!
 I'd like to especially mention [@geiseri](https://github.com/geiseri)  who has been helping us migrate to QtQuick.Controls along
@@ -37,8 +37,8 @@ with contributing other great feedback and discussion about how we're implementi
 No commits landed in the main branch for Quantum Shell, as discussion was ongoing and any work was made
 to separate repositories or branches. The following items were discussed or worked on:
 
-* Implementing the Music indicator [[#14](https://github.com/quantum-os/quantum-shell/issues/14), [#16](https://github.com/quantum-os/quantum-shell/issues/16)]
-* Implementing the Network indicator [[#17](https://github.com/quantum-os/quantum-shell/issues/17)]
+* Implementing the Music indicator [[#14](https://github.com/papyros/papyros-shell/issues/14), [#16](https://github.com/papyros/papyros-shell/issues/16)]
+* Implementing the Network indicator [[#17](https://github.com/papyros/papyros-shell/issues/17)]
 
 Planning also continues on different designs and layouts and deciding what features to implement.
 
@@ -61,7 +61,7 @@ Other ongoing issues include:
 
 In closing, we're making good progress towards building an awesome OS! Thanks to everyone interested in the project and who have offered support, ideas and suggestions, design feedback, or code contributions. That's the power of open source!
 
-Have any suggestions, bug reports, or ideas for what you'd like to see next in the various projects? Comment here or on Google+, or open issues on our GitHub projects at <https://github.com/quantum-os>.
+Have any suggestions, bug reports, or ideas for what you'd like to see next in the various projects? Comment here or on Google+, or open issues on our GitHub projects at <https://github.com/papyros>.
 
 Christmas is coming up next week, so I may not do a progress report next Friday and will probably not make a whole lot of progress on Quantum OS work as well. I'll be back in full force the next week, though!
 
