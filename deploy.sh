@@ -42,6 +42,10 @@ if [ -n "$TRAVIS_BUILD_ID" ]; then
             chmod 600 deploy_key
             eval `ssh-agent -s`
             ssh-add deploy_key
+
+            ssh-add -l
+            ssh -vT git@github.com
+
             git config --global user.name "$GIT_NAME"
             git config --global user.email "$GIT_EMAIL"
 
