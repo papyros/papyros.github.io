@@ -3,6 +3,7 @@ rvm:
   - 2.0.0
 
 script:
+  - npm install -g bower
   - bower install
   - jekyll build
 
