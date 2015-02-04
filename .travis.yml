@@ -3,6 +3,7 @@ rvm:
   - 2.0.0
 
 script:
+  - bower install
   - jekyll build
 
 after_success:
