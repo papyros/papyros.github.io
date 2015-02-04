@@ -3,3 +3,9 @@
 _site
 bower_components
 Gemfile.lock
+
+# make sure you ignore the SSH keys and only commit the
+# encrypted version. You may also want to back up the original
+# key files elsewhere
+deploy_key
+deploy_key.pub
