@@ -3,10 +3,11 @@
 ---
 @charset "utf-8";
 
-
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500);
 
 // Our variables
 $base-font-family: Roboto;
+$base-font-weight: 400;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
