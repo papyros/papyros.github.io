@@ -2,6 +2,8 @@
 layout: post
 title: "Monthly Status Update 1/15"
 date: 2015-02-05T15:33:45-06:00
+comments: true
+categories: monthly-update
 ---
 
 I had originally planned to do weekly status updates, but I've been busy focusing on actual development and normal life, so I've only had time to do one update so far. So, we'll turn the updates into monthly updates instead. I'll start off by calling this the January update so as to get another one in at the end of February.
