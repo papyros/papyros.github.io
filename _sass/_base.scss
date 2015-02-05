@@ -102,7 +102,22 @@ a {
     }
 }
 
+/**
+* Links in a Paper button
+*/
+paper-button > a {
+    color: white;
+    text-decoration: none;
 
+    &:visited {
+        color: white;
+    }
+
+    &:hover {
+        color: white;
+        text-decoration: none;
+    }
+}
 
 /**
  * Blockquotes
