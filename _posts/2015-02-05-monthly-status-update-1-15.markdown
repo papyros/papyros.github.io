@@ -46,6 +46,8 @@ Lots of work has gone into polishing the Material Design framework. Some of the 
  * Switch to QtQuick Controls for the PageStack
  * Improved ink animations
 
+Thanks to the  [17 developers](https://github.com/papyros/qml-material/graphs/contributors) who have contributed to the framework.
+
 ### Desktop shell
 
 Lots of work has gone into Papyros shell, and it's getting closer and closer to at least being semi-usable as a full desktop session. We also reached a significant milestone by being able to run it as a Wayland session from GDM using Qt 5.5's eglfs bindings.
@@ -68,6 +70,8 @@ Current in-development features include:
 
  {% img /images/monthly_update_1_15/screenshot_1.png %}
 
+Thanks to the  [7 developers](https://github.com/papyros/papyros-shell/graphs/contributors) who have contributed to the desktop shell, and to the  [3 developers](https://github.com/papyros/qml-desktop/graphs/contributors) who have contributed to the desktop backend code.
+
 ### OSTree and App Bundles
 
 We've successfully set up building OSTree images from Arch packages, and have tested a GNOME OSTree image in VirtualBox. We've built a Papyros image too, but it's having Wayland issues.
@@ -89,6 +93,8 @@ The great news is an app developer has started on what will probably be the defa
 In case you're new to the project, or didn't happen to notice, we have a new website! It's built with the all-new Octopress 3, which is a static website generator built on top of Jekyll. We're also slowly beginning to implement a Material Design theme using Polymer.
 
 If you're a web developer and interested in contributing, feel free to check out the [GitHub Issues](https://github.com/papyros/papyros.github.io/issues) or [submit a pull request](https://github.com/papyros/papyros.github.io/pulls).
+
+Thanks to the  [4 developers](https://github.com/papyros/papyros.github.io/graphs/contributors) who have contributed to the  new website.
 
 ### Getting Involved
 
