@@ -10,6 +10,15 @@
     position: relative;
 }
 
+.site-header.light {
+    border-top: none;
+    border-bottom: none;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
 .site-title {
     font-size: 26px;
     line-height: 56px;
@@ -17,9 +26,11 @@
     margin-bottom: 0;
     float: left;
 
-    &,
-    &:visited {
-        color: $text-color
+    > a {
+        &,
+        &:visited {
+            color: $text-color
+        }
     }
 }
 
