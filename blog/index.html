@@ -11,11 +11,18 @@ permalink: /blog/
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
+        <h2 style="padding: 0px; margin: 0px;">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
+        <span class="post-meta">
+            {{ post.date | date: "%b %-d, %Y" }}
+
+            {% if site.disqus_short_name and post.comments != false%}
+                | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread"
+                    data-disqus-identifier="{% if post.meta.disqus_id %}{{ post.meta.disqus_id }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">Comments</a>
+            {% endif %}
+        </span>
       </li>
     {% endfor %}
   </ul>
