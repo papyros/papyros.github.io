@@ -86,7 +86,7 @@ In addition OSTree providing the base operating system, we are also looking to u
 
 Some work has started on the [Settings app](https://github.com/papyros/settings-app), but most of it is in the planning phase still.
 
-The great news is an app developer has started on what will probably be the default Calculator app! Check out his code on [GitHub](https://github.com/PierreJacquier/papyros-calculator) or view his post on [Google+](https://plus.google.com/117435800250066519130/posts/da2JuC1gkbN). Here's a screenshot of the Calendar app:
+The great news is an app developer has started on what will probably be the default Calculator app! Check out his code on [GitHub](https://github.com/PierreJacquier/papyros-calculator) or view his post on [Google+](https://plus.google.com/117435800250066519130/posts/da2JuC1gkbN). Here's a screenshot of the Calculator app:
 
 {% img /images/monthly_update_1_15/papyros-calculator.png %}
 
