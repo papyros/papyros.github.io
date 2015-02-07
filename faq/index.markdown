@@ -15,7 +15,7 @@ at <https://github.com/papyros>.
 
 ### You're building yet another desktop shell! Why not just theme KDE?
 
-We're not building an entire desktop shell from scratch - we're building a Wayland compositor
+We're not building an entire desktop shell from scratch -- we're building a Wayland compositor
 using the QtCompositor APIs, which takes care of most of the work for window management and
 compositing. It's so easy that a working compositor can be built in 9 files or less. We'll still
 have to implement the standard indicators and app launching, but we believe that by focusing just
@@ -40,7 +40,7 @@ February 30 :)
 
 Seriously, though, we'll release it when it's ready, whenever that will be. As work progresses,
 we'll release instructions for installing packages on top of Arch Linux and also instructions for
-installing via OSTree on top of your current system so you can switch back and fourth without having
+installing via OSTree on top of your current system so you can switch back and forth without having
 to make a full install to a separate partition.
 
 Then, finally, we'll release ISOs to install the operating system in a VM or on an actual computer,
@@ -54,13 +54,13 @@ computing user. So, if that means supporting proprietary software such as firmwa
 we will support non-free software. And that includes supporting an appstore that supports selling
 proprietary software (if we ever get to that point).
 
-My goal for the OS itself is to focus on an ellegent user experience for the typical computing user.
+My goal for the OS itself is to focus on an elegant user experience for the typical computing user.
 This may limit its use for certain use cases (for example, if we use OSTree), or may require that
 we support non-free software. It certainly won't please everyone. If you don't like the OS itself,
 go find your own distro and install our packages on top of it.﻿
 
 I'm not developing this operating system to please everyone. I'm developing it as a hobby project
-to fullfill a list of requirements that I've put forth, and being an ideal distro that doesn't
+to fulfill a list of requirements that I've put forth, and being an ideal distro that doesn't
 work for users is not one of them.﻿
 
 ### So you're selling your operating system?
