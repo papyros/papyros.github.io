@@ -22,8 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.5.4",
-    "paper-elements": "Polymer/paper-elements#~0.5.4",
-    "core-elements": "Polymer/core-elements#~0.5.4"
+    "materialize": "~0.96.1",
   }
 }
