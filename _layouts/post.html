@@ -3,20 +3,23 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
+  <br>
+  <h3 class="header">{{ page.title }}</h3>
+  <div class="divider"></div>
+  <p class="light">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  
   <article class="post-content">
     {{ content }}
   </article>
-
+  
   {% if site.disqus_short_name and page.comments == true %}
+  <br>
   <section>
-      <h1>Comments</h1>
+      <h4>Comments</h4>
       <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
   </section>
   {% endif %}
+
+  <br>
 
 </div>

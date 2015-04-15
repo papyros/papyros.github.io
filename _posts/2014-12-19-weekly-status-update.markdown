@@ -4,13 +4,15 @@ title: "Weekly Status Update"
 date: 2014-12-19 19:55:59 -0600
 comments: true
 categories: weekly-status
+author: Michael Spencer
+summary: "We'll be starting weekly status updates to share progress on the various components of Quantum OS. I'll also share some ongoing discussions and work on the operating system in general."
 ---
 
 **UPDATE:** Quantum OS has been renamed to Papyros to avoid trademark issues.
 
 We'll be starting weekly status updates to share progress on the various components of Quantum OS.
 
-### QML Material
+#### QML Material
 
 21 commits where made to our Material Design framework during the past week. The following features
 were implemented:
@@ -32,7 +34,7 @@ Thanks to all the developers who have contributed code to the project this week 
 I'd like to especially mention [@geiseri](https://github.com/geiseri)  who has been helping us migrate to QtQuick.Controls along
 with contributing other great feedback and discussion about how we're implementing various features.
 
-### Quantum Shell
+#### Quantum Shell
 
 No commits landed in the main branch for Quantum Shell, as discussion was ongoing and any work was made
 to separate repositories or branches. The following items were discussed or worked on:
@@ -42,11 +44,11 @@ to separate repositories or branches. The following items were discussed or work
 
 Planning also continues on different designs and layouts and deciding what features to implement.
 
-### SDDM Theme
+#### SDDM Theme
 
 Not much happening here, as the focus during the past week has been on other components. However, [@boghison](https://github.com/boghison) did turn the initial prototype into a working SDDM theme, which is awesome.
 
-### General OS progress
+#### General OS progress
 
 A large part of my time this week was spent on the following items:
 

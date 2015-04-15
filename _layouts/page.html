@@ -1,21 +1,25 @@
 ---
 layout: default
 ---
-<div class="post">
+<div>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+  <br>
+  <h3 class="header">{{ page.title }}</h3>
+  <div class="divider"></div>
+  <br>
 
   <article class="post-content">
     {{ content }}
   </article>
-
+  
   {% if site.disqus_short_name and page.comments == true %}
+  <br>
   <section>
-      <h1>Comments</h1>
+      <h4>Comments</h4>
       <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
   </section>
   {% endif %}
+
+  <br>
 
 </div>

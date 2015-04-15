@@ -3,6 +3,8 @@ layout: post
 title: "Repository for Early Testing"
 date: 2015-02-07T22:07:20-06:00
 comments: true
+author: Michael Spencer
+summary: "We now have an initial package repository for users to try out the Papyros shell on ArchLinux! It's very much a pre-alpha state, and many things aren't done, but it's an exciting step towards an alpha release."
 ---
 
 We now have an initial package repository for users to try out the Papyros shell on ArchLinux!

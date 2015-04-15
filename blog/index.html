@@ -6,26 +6,31 @@ permalink: /blog/
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <br>
+  <h3 class="header">Posts</h3>
+  <div class="divider"></div>
+  <br>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2 style="padding: 0px; margin: 0px;">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-
-        <span class="post-meta">
-            {{ post.date | date: "%b %-d, %Y" }}
-
-            {% if site.disqus_short_name and post.comments != false%}
-                | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread"
-                    data-disqus-identifier="{% if post.meta.disqus_id %}{{ post.meta.disqus_id }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">Comments</a>
-            {% endif %}
-        </span>
-      </li>
+  {% for post in site.posts %}
+    <div class="row">
+        <div class="col s12 m12">
+          <a href="{{ post.url }}"> <div class="card">
+            <div class="card-content">
+              <div class="card-title blue-text">{{ post.title }}</div>
+              <p class="black-text">
+                {{ post.summary }}
+              </p>
+            </div>
+            <div class="card-action">
+              <span class="light black-text">
+                {{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}
+              </span>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
     {% endfor %}
-  </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
