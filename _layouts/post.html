@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-<div class="post">
+<div>
 
   <br>
   <h3 class="header">{{ page.title }}</h3>
   <div class="divider"></div>
   <p class="light">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   
-  <article class="post-content">
+  <div class="content">
     {{ content }}
-  </article>
+  </div>
   
   {% if site.disqus_short_name and page.comments == true %}
   <br>

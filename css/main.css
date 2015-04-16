@@ -2,3 +2,23 @@
     color: #ee6e73;
     font-weight: 300;
 }
+
+.content > ul {
+	padding-left: 20px;
+	list-style-type: disc;
+}
+
+ul.bullet-list {
+	padding-left: 20px;
+	list-style-type: disc;
+}
+
+ul.bullet-list > li {
+	list-style-type: disc;
+	padding-bottom: 10px;
+}
+
+
+.content > ul > li {
+	list-style-type: disc;
+}
