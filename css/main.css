@@ -8,6 +8,11 @@
 	list-style-type: disc;
 }
 
+.content > ul > li > ul {
+	padding-left: 20px;
+	list-style-type: circle;
+}
+
 ul.bullet-list {
 	padding-left: 20px;
 	list-style-type: disc;
@@ -21,4 +26,8 @@ ul.bullet-list > li {
 
 .content > ul > li {
 	list-style-type: disc;
+}
+
+.content > ul > li > ul > li {
+	list-style-type: circle;
 }

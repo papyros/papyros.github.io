@@ -1,8 +1,19 @@
 ---
 layout: page
-short_title: "FAQ"
-title: "Frequently Asked Questions"
+title: "Support"
 ---
+
+You can contact us and get help and support from a variety of resources:
+
+* File bugs or feature requests at <https://github.com/papyros>
+* Join our [Google+ community](https://plus.google.com/communities/109966288908859324845)
+* Join our [mailing list on Google Groups](https://groups.google.com/forum/#!forum/papyros)
+* Chat with us on [IRC at #papyros](http://webchat.freenode.net/?channels=papyros)
+* If you're a developer, you might want to check out one of the following Gitter channels:
+  * [papyros/papyros](https://gitter.im/papyros/papyros) for general development and discussion
+  * [papyros/qml-material](https://gitter.im/papyros/qml-material) for development and discussion of our Material Design toolkit for QtQuick
+
+#### Frequently Asked Questions
 
 ##### Is this only just a bunch of mockups or is it a real working OS?
 
@@ -54,7 +65,7 @@ Instead, once we have more work to show, we will be accepting direct donations a
 
 ##### So, you're just another person/project crazy about all things Google and Material Design in particular.
 
-No. I (Michael Spencer, the project manager and lead dev) have been planning on developing an operating system for several years now, and have been working on ideas for the OS and reading up about people's thoughts about Linux Desktops in general. I actually had started to develop my own UI style somewhat similar to the Bootstrap web framework, but then Google announced Material Design and I decided just to use that as Material Design looked really nice and it obviously would get a lot of support and interest since it came from a big company like Google.
+No. I (Michael Spencer, the project's founder and lead developer) have been planning on developing an operating system for several years now, and have been working on ideas for the OS and reading up about people's thoughts about Linux Desktops in general. I actually had started to develop my own UI style somewhat similar to the Bootstrap web framework, but then Google announced Material Design and I decided just to use that as Material Design looked really nice and it obviously would get a lot of support and interest since it came from a big company like Google.
 
 ##### You really plan to build all the apps yourself?
 
