@@ -14,8 +14,7 @@
     <ul class="right hide-on-med-and-down">
       {% for page in site.pages %}
         {% if page.title %}
-        <li><a class="page-link{% if page.url == current_url %} active{% endif %}" 
-                 href="{{ page.url | prepend: site.baseurl }}">
+                  <li {% if page.url == current_url %}class="active"{% endif %}><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
             {% if page.short_title %}
               {{ page.short_title }}
             {% else %}
