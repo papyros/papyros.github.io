@@ -12,6 +12,7 @@ You can contact us and get help and support from a variety of resources:
 * If you're a developer, you might want to check out one of the following Gitter channels:
   * [papyros/papyros](https://gitter.im/papyros/papyros) for general development and discussion
   * [papyros/qml-material](https://gitter.im/papyros/qml-material) for development and discussion of our Material Design toolkit for QtQuick
+* You can also contact the Papyros founder and lead developer, Michael Spencer, personally at [mspencer@sonrisesoftware.com](mailto:mspencer@sonrisesoftware.com)
 
 #### Frequently Asked Questions
 
