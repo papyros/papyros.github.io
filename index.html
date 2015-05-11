@@ -2,6 +2,50 @@
 layout: default_light
 ---
 
+<script type="text/javascript">
+  window.onload = function () {
+
+    // Display milestone progress, based on the glfw website
+    // https://github.com/glfw/website/blob/master/_layouts/frontpage.html#L10
+    var request = new XMLHttpRequest();
+    request.open("GET", "https://api.github.com/repos/papyros/papyros-shell/milestones", true);
+    request.onload = function () {
+      if (this.status >= 200 && this.status < 400) {
+        var data = JSON.parse(this.response);
+        data.sort(function (a, b) {
+          return a.title - b.title;
+        });
+        
+        var openIssues = data[0].open_issues;
+        var closedIssues = data[0].closed_issues;
+        var workProgress = closedIssues * 100 / (openIssues + closedIssues);
+        
+        var milestoneText = document.getElementById("milestone-text");
+        milestoneText.style.display = "initial";
+
+        var milestoneLink = document.getElementById("milestone-link");
+        milestoneLink.href = data[0].html_url;
+
+        var milestoneVersion = document.getElementById("milestone-title");
+        milestoneVersion.innerHTML = data[0].title;
+        milestoneVersion.href = data[0].html_url;
+
+        var progressBarInner = document.getElementById("milestone-progress");
+        progressBarInner.style.width = workProgress + "%";
+        
+        var progress = document.getElementById("milestone-percent");
+        progress.innerHTML = Math.floor(workProgress) + "%";
+        
+        var milestoneContainer = document.getElementById("milestone-container");
+        milestoneContainer.style.display = "initial"
+        milestoneContainer.style.opacity = "1";
+        milestoneContainer.style.transition = ".7s ease-in";
+      }
+    };
+    request.send();
+  };
+</script>
+
 <br><br>
 <h4 class="center">Modern. Fast. Beautiful. Awesome.</h4>
 
@@ -15,8 +59,22 @@ layout: default_light
 <div class="row center">
 	<div class="col s12 m10 offset-m1 l8 offset-l2 light">
 		Follow us on <a href="https://plus.google.com/communities/109966288908859324845">Google+</a>
-    	or read our blog for more details. Help us fund development and pay for server and hosting costs by donating and giving bug bounties.
+    or read our blog for more details. Help us fund development and pay for server and hosting costs by donating and giving bug bounties. <span id="milestone-text" style="display: none">You can track our progress to the <a id="milestone-link">next milestone</a> using the progress bar below:</span>
+  </div>
+</div>
+
+<div id="milestone-container" class="row" style="opacity: 0; display: none">
+  <div class="col s10 m8 offset-m1 l7 offset-l2">
+    <a id="milestone-title">Milestone title</a>
+  </div>
+  <div id="milestone-percent" class="col s2 m2 l1 light right-align">
+    ???%
+  </div>
+  <div class="col s12 m10 offset-m1 l8 offset-l2 light">
+    <div class="progress">
+      <div id="milestone-progress" class="determinate" style="width: 0%"></div>
     </div>
+  </div>
 </div>
 
 <div class="row center">
