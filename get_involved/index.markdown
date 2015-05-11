@@ -6,7 +6,7 @@ Whether you are a developer, designer, translator, or just a regular user, there
 
 You can also donate to Papyros to fund development or web hosting. All donations will go directly to web hosting and server costs and bug bounties. You can also donate to specific bugs or feature requests by creating bug bounties on BountySource.
 
-<a class="waves-effect waves-light btn blue lighten-2" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SZ4BPY35QFP76">
+<a class="waves-effect waves-light btn blue lighten-1" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SZ4BPY35QFP76">
     Donate via Paypal
 </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="waves-effect waves-light btn green lighten-1" href="https://www.bountysource.com/teams/papyros">
     Bug Bounties via BountySource
