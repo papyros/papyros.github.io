@@ -46,7 +46,7 @@ Then, finally, we'll release ISOs to install the operating system in a VM or on 
 
 Our goal is not to be a pure free-software distro; if you want that, install our apps, shell, and
 login screen on another distro. Our goal is to be the best possible operating system for the typical
-computing user. So, if that means supporting proprietary software such as firmware and drivers, than
+computing user. So, if that means supporting proprietary software such as firmware and drivers, then
 we will support non-free software. And that includes supporting an appstore that supports selling
 proprietary software (if we ever get to that point).
 
