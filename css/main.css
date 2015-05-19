@@ -31,3 +31,8 @@ ul.bullet-list > li {
 .content > ul > li > ul > li {
 	list-style-type: circle;
 }
+
+/* Fixes weird behaviour of buttons below a device width of 650px (WARNING: kind of hacky) */
+@media only screen and (max-width: 650px) {
+	.btn { display: block !important; }
+}
