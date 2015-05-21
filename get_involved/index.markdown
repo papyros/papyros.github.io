@@ -4,12 +4,12 @@ title: "Get Involved"
 ---
 Whether you are a developer, designer, translator, or just a regular user, there are many ways to contribute to Papyros.
 
-You can also donate to Papyros to fund development or web hosting. All donations will go directly to web hosting and server costs and bug bounties. You can also donate to specific bugs or feature requests by creating bug bounties on BountySource. You can view a donation report in [this spreadsheet](https://docs.google.com/spreadsheets/d/1eglrkBnZS1Qmj6vwMYTESDzZF5DJxwQB8I7GqnOFnX0/edit?usp=sharing).
+You can also support development of Papyros by donating to fund development and web hosting. Bug bounties are a way of paying developers, both from the Papyros team and third-party contributors, for their work in fixing bugs or implementing features. You can donate to specific features or bugs that matter to you or to the project in general. Either way, you get to see exactly where your funds are going. You can also donate via Paypal to help support web hosting and server costs. For PayPal donations, you can view a donation report in [this spreadsheet](https://docs.google.com/spreadsheets/d/1eglrkBnZS1Qmj6vwMYTESDzZF5DJxwQB8I7GqnOFnX0/edit?usp=sharing).
 
-<a class="waves-effect waves-light btn blue lighten-1" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SZ4BPY35QFP76">
-    Donate via Paypal
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="waves-effect waves-light btn green lighten-1" href="https://www.bountysource.com/teams/papyros">
+<a class="waves-effect waves-light btn green lighten-1" href="https://www.bountysource.com/teams/papyros">
     Bug Bounties via BountySource
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="waves-effect waves-light btn blue lighten-1" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SZ4BPY35QFP76">
+    Donate via Paypal
 </a>
 
 <br/>
