@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Support"
+order: 6
 ---
 
 You can contact us and get help and support from a variety of resources:

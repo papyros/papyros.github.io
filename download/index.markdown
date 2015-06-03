@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Download"
+order: 4
 ---
 
 The operating system, desktop shell, and material design framework is still in active development and is in a pre-alpha state. We don't have any installer ISOs or stable repositories. However, we now have an initial package repository for users to try out the Papyros shell on ArchLinux! These packages are automatically built each night by a Buildbot instance running on the Papyros servers.
