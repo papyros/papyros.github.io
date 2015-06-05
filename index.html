@@ -15,11 +15,11 @@ layout: default_light
         data.sort(function (a, b) {
           return a.title - b.title;
         });
-        
+
         var openIssues = data[0].open_issues;
         var closedIssues = data[0].closed_issues;
         var workProgress = closedIssues * 100 / (openIssues + closedIssues);
-        
+
         var milestoneText = document.getElementById("milestone-text");
         milestoneText.style.display = "initial";
 
@@ -32,10 +32,10 @@ layout: default_light
 
         var progressBarInner = document.getElementById("milestone-progress");
         progressBarInner.style.width = workProgress + "%";
-        
+
         var progress = document.getElementById("milestone-percent");
         progress.innerHTML = Math.floor(workProgress) + "%";
-        
+
         var milestoneContainer = document.getElementById("milestone-container");
         milestoneContainer.style.display = "initial"
         milestoneContainer.style.opacity = "1";
@@ -81,7 +81,7 @@ layout: default_light
 
 <div class="row center">
   <div class="col s12 m10 offset-m1 l8 offset-l2 light">
-    You can support development of Papyros by donating on Bountysource. Bug bounties are a way of paying developers, both from the Papyros team and third-party contributors, for their work in fixing bugs or implementing features.
+    Papyros currently has no commercial funding, and development is done by team members and third-party contributors in their spare time. Help fund the development of Papyros so we can spend more time working on development and get more contributors involved.
   </div>
 </div>
 
@@ -123,4 +123,3 @@ layout: default_light
     </div>
   </div>
 </div>
-
