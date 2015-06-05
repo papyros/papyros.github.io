@@ -13,7 +13,7 @@ Papyros currently has no commercial funding, and development is done by team mem
   <div class="col s12 m6 l6">
       <h5>General Funding</h5>
 
-      You can support our ongoing crowdfunding campaign on Bountysource Salt. Choose an amount, get rewards, and help us reach our goals.
+      You can support our ongoing crowdfunding campaign on Bountysource Salt. Choose an amount, get rewards, and help us reach our goals. <a href="/sponsors">View our sponsors <i class="mdi-navigation-chevron-right" style="vertical-align: -6%"></i></a>
       <p/>
       PayPal is a quick and easy solution. Choose a one-time amount or set up a subscription. <a href="https://docs.google.com/spreadsheets/d/1eglrkBnZS1Qmj6vwMYTESDzZF5DJxwQB8I7GqnOFnX0/edit?usp=sharing">View donation report <i class="mdi-navigation-chevron-right" style="vertical-align: -6%"></i></a>
   </div>
