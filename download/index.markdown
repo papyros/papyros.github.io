@@ -19,35 +19,10 @@ Then, run
     pacman -Syu
     pacman -S papyros-shell
 
-To run the shell as a window on your desktop, you need to create a fake screen configuration similar to this one for a MacBook Pro:
+You can  test the shell by running it in a new window on top of your desktop:
 
-    {
-        "outputs": [
-            {
-                "mode": {
-                    "refreshRate": 60000,
-                    "size": {
-                        "height": 736,
-                        "width": 1285
-                    }
-                },
-                "name": "Fake1",
-                "orientation": 2,
-                "position": {
-                    "x": 0,
-                    "y": 0
-                }
-            }
-        ]
-    }
+    papyros-session
 
-You will need to tweak the width and height to match your screen, taking into account the window decoration of the shell window and any system panels in your desktop environment. Save this file somewhere, for example, `~/.config/fake-screen.json`
-
-You can then test the shell by running it in a new window on top of your desktop:
-
-    greenisland --fake-screen ~/.config/fake-screen.json --shell io.papyros.shell
-
-It's still very much in early development, though; the network indicator doesn't work, you can't lock the screen or logout, and there are other missing features. Those features will land over coming weeks.
+We're getting closer to our first release, but there are still some missing features and many bugs. Stay tuned for more updates!
 
 Happy testing!
-
