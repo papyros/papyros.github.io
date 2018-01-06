@@ -1,125 +1,24 @@
----
-layout: default_light
----
+<!DOCTYPE html>
+<html lang="en">
 
-<script type="text/javascript">
-  window.onload = function () {
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Papyros</title>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700">
+  <link rel="stylesheet" type="text/css" href="/css/liri.css">
+</head>
 
-    // Display milestone progress, based on the glfw website
-    // https://github.com/glfw/website/blob/master/_layouts/frontpage.html#L10
-    var request = new XMLHttpRequest();
-    request.open("GET", "https://api.github.com/repos/papyros/papyros-shell/milestones", true);
-    request.onload = function () {
-      if (this.status >= 200 && this.status < 400) {
-        var data = JSON.parse(this.response);
-        data.sort(function (a, b) {
-          return a.title - b.title;
-        });
-
-        var openIssues = data[0].open_issues;
-        var closedIssues = data[0].closed_issues;
-        var workProgress = closedIssues * 100 / (openIssues + closedIssues);
-
-        var milestoneText = document.getElementById("milestone-text");
-        milestoneText.style.display = "initial";
-
-        var milestoneLink = document.getElementById("milestone-link");
-        milestoneLink.href = data[0].html_url;
-
-        var milestoneVersion = document.getElementById("milestone-title");
-        milestoneVersion.innerHTML = data[0].title;
-        milestoneVersion.href = data[0].html_url;
-
-        var progressBarInner = document.getElementById("milestone-progress");
-        progressBarInner.style.width = workProgress + "%";
-
-        var progress = document.getElementById("milestone-percent");
-        progress.innerHTML = Math.floor(workProgress) + "%";
-
-        var milestoneContainer = document.getElementById("milestone-container");
-        milestoneContainer.style.display = "initial"
-        milestoneContainer.style.opacity = "1";
-        milestoneContainer.style.transition = ".7s ease-in";
-      }
-    };
-    request.send();
-  };
-</script>
-
-<br><br>
-<h5 class="center">Bringing modern features and Material Design to Linux</h5>
-
-<br/>
-
-<img class="responsive-img" src="/images/papyros-laptop.png">
-
-
-<div class="row center">
-	<h4 class="col s12 light">Alpha coming soon</h4>
-</div>
-
-<div class="row center">
-	<div class="col s12 m10 offset-m1 l8 offset-l2 light">
-		Follow us on <a href="https://plus.google.com/communities/109966288908859324845">Google+</a>
-    or read our blog for more details. We're working towards releasing an initial version of the desktop shell for general testing soon. <span id="milestone-text" style="display: none">You can track our progress to the <a id="milestone-link">next development milestone</a> using the progress bar below:</span>
+<body>
+  <div class="fullpage">
+    <a href="https://liri.io">
+      <img src="/images/liri-logo.png">
+    </a>
+    <h1>Papyros is now Liri OS</h1>
+    <p>
+      Papyros merged with Hawaii and is now
+      <a href="https://liri.io">Liri OS</a>.
+    </p>
   </div>
-</div>
-
-<div id="milestone-container" class="row" style="opacity: 0; display: none">
-  <div class="col s10 m8 offset-m1 l7 offset-l2">
-    <a id="milestone-title">Milestone title</a>
-  </div>
-  <div id="milestone-percent" class="col s2 m2 l1 light right-align">
-    ???%
-  </div>
-  <div class="col s12 m10 offset-m1 l8 offset-l2 light">
-    <div class="progress">
-      <div id="milestone-progress" class="determinate" style="width: 0%"></div>
-    </div>
-  </div>
-</div>
-
-<div class="row center">
-  <div class="col s12 m10 offset-m1 l8 offset-l2 light">
-    Papyros currently has no commercial funding, and development is done by team members and third-party contributors in their spare time. Help fund the development of Papyros so we can spend more time working on development and get more contributors involved.
-  </div>
-</div>
-
-<div class="row center">
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="waves-effect waves-light btn green lighten-1" href="https://www.bountysource.com/teams/papyros">
-    Support us on BountySource
-  </a>
-</div>
-
-<div class="section">
-
-  <!--   Icon Section   -->
-  <div class="row">
-    <div class="col s12 m4">
-      <div class="icon-block">
-        <h2 class="center light-blue-text"><i class="mdi-image-flash-on"></i></h2>
-        <h5 class="center">Modern Features</h5>
-
-        <p class="light">We are building some exciting features including atomic upgrades, powerful notifications support, and much more. We're leveraging the latest and greatest Linux technologies, including OSTree, Wayland, Qt 5, and much more.</p>
-      </div>
-    </div>
-
-    <div class="col s12 m4">
-      <div class="icon-block">
-        <h2 class="center light-blue-text"><i class="mdi-action-polymer"></i></h2>
-        <h5 class="center">Material Design</h5>
-
-        <p class="light">We're building the desktop and apps following the Material Design standard which Google created and uses in Android and many of their web apps. This means the operating system will look great, be easy to use and understand, and have a high degree of polish and animations.</p>
-      </div>
-    </div>
-
-    <div class="col s12 m4">
-      <div class="icon-block">
-        <h2 class="center light-blue-text"><i class="mdi-action-settings"></i></h2>
-        <h5 class="center">Open Source</h5>
-
-        <p class="light">We believe that open source is the best way to develop software. All our code is publicly available on GitHub, even before the alpha is released. We also share progress and discuss new ideas on our Google+ page and community and on our mailing list.</p>
-      </div>
-    </div>
-  </div>
-</div>
+</body>
